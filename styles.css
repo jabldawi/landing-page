@@ -39,7 +39,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding-top: 16px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .one {
@@ -49,7 +49,7 @@ ul {
 
 .one > div {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 
 .hero-text {
@@ -126,5 +126,82 @@ h2 {
     text-align: center;
     font-size: 18px;
     margin-top: 8px;
-    color: #3a3f45
+    color: #3a3f45;
+    margin-bottom: 148px;
 }
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 790px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 138px 0;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.signature {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.last {
+    padding: 90px 0;
+}
+
+.action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    padding: 8px 40px;
+    margin-top: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+.header-action {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.last-text:nth-child(1) {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1F2937;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p {
+    color: white;
+    font-size: 18px;
+}
+
